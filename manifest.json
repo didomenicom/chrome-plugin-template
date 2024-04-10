@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "Google Plugin Template",
+	"description": "",
+	"version": "1.0.0",
+	"icons": {
+		"16": "favicon.ico"
+	},
+	"content_scripts": [{ "matches": ["<url goes here>"], "js": ["script.js"], "all_frames": true }]
+}
